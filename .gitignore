@@ -1,0 +1,18 @@
+# Données brutes (trop lourdes pour GitHub)
+*.fastq
+*.fastq.gz
+*.bam
+*.sam
+*.sf
+
+# Outputs R
+*.RData
+*.rds
+*.Rhistory
+
+# Dossier results (optionnel — à retirer si tu veux versionner les résultats)
+results/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
