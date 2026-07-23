@@ -1,0 +1,4 @@
+"contrast","n_genes_common","n_sig_in_A","n_sig_in_B","n_shared_sig","pct_concordant"
+"control_vs_FA",23447,97,165,6,83.3
+"control_vs_FA_edited",23664,79,156,14,100
+"FA_edited_vs_FA",23725,11,40,3,100

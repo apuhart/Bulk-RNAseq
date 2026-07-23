@@ -1,0 +1,63 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<title>FA_edited_vs_FA — Bulk-RNAseq</title><style>
+body { font-family: -apple-system, "Segoe UI", Arial, sans-serif; max-width: 1100px;
+       margin: 2rem auto; padding: 0 1.2rem; background: #f7f7f8; color: #1a1a1a; }
+h1 { font-size: 1.5rem; border-bottom: 2px solid #ddd; padding-bottom: .4rem; }
+h2 { font-size: 1.1rem; margin-top: 2rem; color: #444; }
+a { color: #0969da; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.breadcrumb { font-size: .85rem; color: #666; margin-bottom: 1rem; }
+.folder-grid, .thumb-grid { display: grid; gap: .8rem; margin: 1rem 0; }
+.folder-grid { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.thumb-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+.card { background: #fff; border: 1px solid #e3e3e3; border-radius: 10px;
+        padding: .9rem 1rem; transition: box-shadow .15s; }
+.card:hover { box-shadow: 0 2px 10px rgba(0,0,0,.08); }
+.folder-card { display: flex; align-items: center; gap: .5rem; font-weight: 600; }
+.thumb-card { padding: .5rem; text-align: center; font-size: .8rem; }
+.thumb-card img { width: 100%; height: 130px; object-fit: contain; background: #fafafa;
+                   border-radius: 6px; margin-bottom: .4rem; }
+.filelist { list-style: none; padding: 0; }
+.filelist li { background: #fff; border: 1px solid #e3e3e3; border-radius: 8px;
+               padding: .5rem .8rem; margin-bottom: .4rem; }
+iframe.widget { width: 100%; height: 620px; border: 1px solid #ddd; border-radius: 10px; }
+.badge { display: inline-block; font-size: .65rem; font-weight: 700; padding: 2px 7px;
+         border-radius: 4px; color: #fff; margin-right: .4rem; vertical-align: middle; }
+.b-csv{background:#2da44e}.b-pdf{background:#cf222e}.b-html{background:#8250df}
+.b-xlsx{background:#1a7f37}.b-png{background:#9a6700}
+</style></head><body>
+
+<div class="breadcrumb"><a href="../../index.html">&larr; retour</a></div>
+<h1>FA_edited_vs_FA</h1>
+<h2>Visualisations interactives</h2>
+<p><span class="badge b-html">HTML</span><strong>FA_edited_vs_FA_PCA_3D.html</strong></p>
+<iframe class="widget" src="FA_edited_vs_FA_PCA_3D.html"></iframe>
+<p><a href="FA_edited_vs_FA_PCA_3D.html" target="_blank">Ouvrir en plein écran &#8599;</a></p>
+<h2>Figures (PDF)</h2><div class='thumb-grid'>
+<a class="card thumb-card" href="FA_edited_vs_FA_PCA_2D.pdf" target="_blank"><img src="_thumbs/FA_edited_vs_FA_PCA_2D.png"><div>FA_edited_vs_FA_PCA_2D.pdf</div></a>
+<a class="card thumb-card" href="FA_edited_vs_FA_heatmap_GOI.pdf" target="_blank">📄<div>FA_edited_vs_FA_heatmap_GOI.pdf</div></a>
+<a class="card thumb-card" href="FA_edited_vs_FA_heatmap_topDEGs.pdf" target="_blank"><img src="_thumbs/FA_edited_vs_FA_heatmap_topDEGs.png"><div>FA_edited_vs_FA_heatmap_topDEGs.pdf</div></a>
+<a class="card thumb-card" href="FA_edited_vs_FA_volcano.pdf" target="_blank"><img src="_thumbs/FA_edited_vs_FA_volcano.png"><div>FA_edited_vs_FA_volcano.pdf</div></a>
+<a class="card thumb-card" href="FA_edited_vs_FA_volcano_GOI.pdf" target="_blank"><img src="_thumbs/FA_edited_vs_FA_volcano_GOI.png"><div>FA_edited_vs_FA_volcano_GOI.pdf</div></a>
+</div>
+<h2>Images</h2><div class='thumb-grid'>
+<a class="card thumb-card" href="FA_edited_vs_FA_C5_BP_fgsea_GOI_dotplot.png" target="_blank"><img src="FA_edited_vs_FA_C5_BP_fgsea_GOI_dotplot.png"><div>FA_edited_vs_FA_C5_BP_fgsea_GOI_dotplot.png</div></a>
+<a class="card thumb-card" href="FA_edited_vs_FA_C5_BP_fgsea_dotplot.png" target="_blank"><img src="FA_edited_vs_FA_C5_BP_fgsea_dotplot.png"><div>FA_edited_vs_FA_C5_BP_fgsea_dotplot.png</div></a>
+<a class="card thumb-card" href="FA_edited_vs_FA_C5_CC_fgsea_GOI_dotplot.png" target="_blank"><img src="FA_edited_vs_FA_C5_CC_fgsea_GOI_dotplot.png"><div>FA_edited_vs_FA_C5_CC_fgsea_GOI_dotplot.png</div></a>
+<a class="card thumb-card" href="FA_edited_vs_FA_C5_CC_fgsea_dotplot.png" target="_blank"><img src="FA_edited_vs_FA_C5_CC_fgsea_dotplot.png"><div>FA_edited_vs_FA_C5_CC_fgsea_dotplot.png</div></a>
+<a class="card thumb-card" href="FA_edited_vs_FA_C5_MF_fgsea_dotplot.png" target="_blank"><img src="FA_edited_vs_FA_C5_MF_fgsea_dotplot.png"><div>FA_edited_vs_FA_C5_MF_fgsea_dotplot.png</div></a>
+<a class="card thumb-card" href="FA_edited_vs_FA_H_fgsea_GOI_dotplot.png" target="_blank"><img src="FA_edited_vs_FA_H_fgsea_GOI_dotplot.png"><div>FA_edited_vs_FA_H_fgsea_GOI_dotplot.png</div></a>
+<a class="card thumb-card" href="FA_edited_vs_FA_H_fgsea_dotplot.png" target="_blank"><img src="FA_edited_vs_FA_H_fgsea_dotplot.png"><div>FA_edited_vs_FA_H_fgsea_dotplot.png</div></a>
+</div>
+<h2>Tables</h2><ul class='filelist'>
+<li><span class="badge b-csv">CSV</span><a href="FA_edited_vs_FA_C5_BP_fgsea.csv.html">FA_edited_vs_FA_C5_BP_fgsea.csv</a> — <a href="FA_edited_vs_FA_C5_BP_fgsea.csv">télécharger le CSV</a></li>
+<li><span class="badge b-csv">CSV</span><a href="FA_edited_vs_FA_C5_BP_fgsea_GOI.csv.html">FA_edited_vs_FA_C5_BP_fgsea_GOI.csv</a> — <a href="FA_edited_vs_FA_C5_BP_fgsea_GOI.csv">télécharger le CSV</a></li>
+<li><span class="badge b-csv">CSV</span><a href="FA_edited_vs_FA_C5_CC_fgsea.csv.html">FA_edited_vs_FA_C5_CC_fgsea.csv</a> — <a href="FA_edited_vs_FA_C5_CC_fgsea.csv">télécharger le CSV</a></li>
+<li><span class="badge b-csv">CSV</span><a href="FA_edited_vs_FA_C5_CC_fgsea_GOI.csv.html">FA_edited_vs_FA_C5_CC_fgsea_GOI.csv</a> — <a href="FA_edited_vs_FA_C5_CC_fgsea_GOI.csv">télécharger le CSV</a></li>
+<li><span class="badge b-csv">CSV</span><a href="FA_edited_vs_FA_C5_MF_fgsea.csv.html">FA_edited_vs_FA_C5_MF_fgsea.csv</a> — <a href="FA_edited_vs_FA_C5_MF_fgsea.csv">télécharger le CSV</a></li>
+<li><span class="badge b-csv">CSV</span><a href="FA_edited_vs_FA_C5_MF_fgsea_GOI.csv.html">FA_edited_vs_FA_C5_MF_fgsea_GOI.csv</a> — <a href="FA_edited_vs_FA_C5_MF_fgsea_GOI.csv">télécharger le CSV</a></li>
+<li><span class="badge b-csv">CSV</span><a href="FA_edited_vs_FA_DEG_results.csv.html">FA_edited_vs_FA_DEG_results.csv</a> — <a href="FA_edited_vs_FA_DEG_results.csv">télécharger le CSV</a></li>
+<li><span class="badge b-csv">CSV</span><a href="FA_edited_vs_FA_H_fgsea.csv.html">FA_edited_vs_FA_H_fgsea.csv</a> — <a href="FA_edited_vs_FA_H_fgsea.csv">télécharger le CSV</a></li>
+<li><span class="badge b-csv">CSV</span><a href="FA_edited_vs_FA_H_fgsea_GOI.csv.html">FA_edited_vs_FA_H_fgsea_GOI.csv</a> — <a href="FA_edited_vs_FA_H_fgsea_GOI.csv">télécharger le CSV</a></li>
+</ul>
+</body></html>
